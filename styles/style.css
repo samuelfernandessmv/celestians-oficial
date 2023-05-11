@@ -1,0 +1,166 @@
+/* Começo */
+
+body {
+    background-image: url(/images/stars_2\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+}
+
+#comeco {
+    position: relative;
+    margin: auto;
+}
+
+.Celestians-title {
+    font-family: Dancing Script;
+    font-size: 4rem;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+#principal {
+    background-color: rgb(25, 25, 25);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 85%;
+    position: relative;
+    margin: auto;
+}
+
+.resumo-container {
+    padding: 2rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: orangered;
+}
+
+/* Criadores */
+
+.criadores {
+    display: flex;
+    gap: 5rem;
+    padding: 3rem;
+    text-align: center;
+}
+
+.samuel-foto {
+    width: 35%;
+    height: auto;
+    border-radius: 15px;
+}
+
+.mariana-foto {
+    width: 24%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Personagens */
+
+#personagens {
+    text-align: center;
+}
+
+.personagem {
+    width: 10rem;
+    border-radius: 20px;
+    transition: transform 0.5s;
+}
+
+.personagem:hover {
+    transform: scale(1.1);
+}
+
+.principais {
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+#lycia {
+    padding-top: 4rem;
+}
+
+.sandyr-deusa {
+    padding-top: 4rem;
+}
+
+/* Em breve */
+
+#jogo-celestians {
+    padding-top: 5%;
+}
+
+.simbolo-roblox {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.jogo-info {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: center;
+}
+
+/* Entre em contato */
+
+.background-div {
+    padding-top: 2rem;
+}
+
+#entre-em-contato {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(30, 30, 30);
+    border-radius: 15px;
+}
+
+i {
+    color: rgb(255, 255, 255);
+}
+
+.whatsapps {
+    display: flex;
+    gap: 15%;
+    padding-top: 2%;
+    justify-content: center;
+}
+
+.wpp-samuel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wpp-mary {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.fa-solid.fa-envelope {
+    font-size: 0.9rem;
+}
+
+footer {
+    padding-top: 3.8rem;
+    text-align: center;
+}
